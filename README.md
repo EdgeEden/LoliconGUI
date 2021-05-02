@@ -8,4 +8,4 @@ API website:https://api.lolicon.app/#/setu
 
 # written by @TMFfa
 
-# [download](https://github.com/TMFfa/LoliconGUI/releases/download/v1.0/setu-Pro.7z)
+# [download](https://github.com/EdgeEden/LoliconGUI/releases/download/v1.0/pixivGUI2.exe)
