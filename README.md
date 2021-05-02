@@ -7,3 +7,5 @@ API:https://api.lolicon.app/setu/
 API website:https://api.lolicon.app/#/setu          
 
 # written by @TMFfa
+
+# [download](https://github.com/TMFfa/LoliconGUI/releases/download/v1.0/setu-Pro.7z)
