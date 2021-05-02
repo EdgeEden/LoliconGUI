@@ -6,4 +6,4 @@ visit authur:https://moe.best/
 API:https://api.lolicon.app/setu/            
 API website:https://api.lolicon.app/#/setu          
 
-# written by TMFfa
+# written by @TMFfa
