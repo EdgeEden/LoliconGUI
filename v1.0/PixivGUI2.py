@@ -58,11 +58,13 @@ def get_info(apikey='', r18=0, keyword=''):
         return js['data'][0], log
     except Exception as e:
         if js['code'] == -1:
-            tk.messagebox.showerror('-11', '内部错误，请再试一次，且可以向 i@loli.best 反馈')
+            tk.messagebox.showerror('-1', '内部错误，请再试一次，且可以向 i@loli.best 反馈')
         elif js['code'] == 401:
             tk.messagebox.showerror('401', 'APIKEY 不存在或被封禁')
         elif js['code'] == 429:
             tk.messagebox.showerror('429', '已超过当日使用次数，还有 '+str(js['quota_min_ttl'])+' 秒增加一次次数')
+        elif js['code'] == 404:
+            tk.messagebox.showerror('404', '找不到关键词对应图')
         else:
             tk.messagebox.showerror('内部错误', '内部错误，请再试一次')
         with open('log/' + change(str(datetime.datetime.now())) + '.txt', 'a+') as f:
