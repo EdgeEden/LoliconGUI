@@ -117,6 +117,7 @@ def save_img(data):
     with open('imgs/' + change(img_title), 'wb') as p:
         p.write(img.content)
 
+
 def opendir():
     dir = os.path.abspath('.')
     try:
@@ -209,6 +210,7 @@ def main():
 
 
 def run_thread():
+    mkdir()
     var.set('稍等，正在请求中')
     r18 = get_r18()
     keyword = get_keyword()
@@ -217,5 +219,4 @@ def run_thread():
 
 
 if __name__ == '__main__':
-    mkdir()
     main()
