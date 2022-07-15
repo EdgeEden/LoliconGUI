@@ -193,11 +193,11 @@ def main():
 
     # 运行按钮
     run_button = tk.Button(win, text='来张色图', font=('软体雅黑', 12, 'bold'), height=3, width=10, command=run_thread)
-    run_button.grid(row=7, column=1, columnspan=10)
+    run_button.grid(row=7, column=3, columnspan=2)
 
     # 打开路径
-    run_button = tk.Button(win, text='打开图片文件夹', font=('软体雅黑', 12, 'bold'), height=3, width=15, command=opendir)
-    run_button.grid(row=8, column=1, columnspan=10)
+    run_button = tk.Button(win, text='打开图片文件夹', font=('软体雅黑', 10, 'bold'), height=3, width=13, command=opendir)
+    run_button.grid(row=7, column=5)
 
     # 下载图片信息显示
     global var
