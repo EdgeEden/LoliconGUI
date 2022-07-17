@@ -92,7 +92,7 @@ def save_json(data):
         'height': height,
         'tags': tags
     }
-    data = json.dumps(js_data)
+    data = json.dumps(js_data, ensure_ascii=False)
     with open('json/' + change(title) + '.json', 'a+') as f:
         f.write(data)
     return js_data
